@@ -7,6 +7,7 @@ This project aims to help new developers understand the structures that make a p
 
 It's very straightforward and can be modified to use other programming languages as well.
 
+
 ## What you will see here
 
 You will see a series of tasks you have to do in order for you computer to work. Fear not, this computer can also be extended to perform many things for you like finding and saving images, sending emails for you or ordering food. You decide where your computer goes.
@@ -16,7 +17,7 @@ These tasks will be then tested against the `RSpec` test suite, which you can ca
 
 ## Your first steps
 
-Often you would see projects that offer you everything to run them, but this one is different: there are only a set of rules and you have to figure out what's missing to run the project. Check the files and find how `rake` can run.
+Often you would see projects that offer you everything to run them, but this one is different: there are only a set of rules and you have to figure out what's missing to run the project. Check the files and find how `rake` can run. The tip here is to make sure you can run `bundle install` without any errors.
 
 Stuck? Your best friend is Google: e.g. `How to install the ruby ...` or `How to split arrays in ruby` are common terms you might be looking for. Keeping in mind that this is a fun pet project to elevate your knowledge and finding the answers by googling them is also part of the learning process.
 
@@ -30,7 +31,7 @@ Computers normally have what we can call a `Boot phase`. It's where everything g
 
 Your job here is to create a similar screen and avoid printing everything at once like a good BIOS would do. It should wait a bit before printing every line. Feel free to create any style for it. It's your computer after all.
 
-When you are done, run the `rake` command to test or use `rake run` to actually start your project in your terminal.
+When you are done, run the `rake` command to test or use `ruby ./lib/computer.rb` to actually start your project in your terminal.
 
 
 #### 2. The Operational System (OS) phase
