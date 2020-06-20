@@ -1,6 +1,7 @@
 # My PC
 
-Ready carefully. This project assumes that you have some small knowledge of Terminal, [Git](https://rogerdudler.github.io/git-guide/) and Modules/Classes. If you don't know it yet, feel free to dive into them by clicking on the links or googling further.
+Ready carefully. This project assumes that you have some small knowledge of [Terminal](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a), [Git](https://rogerdudler.github.io/git-guide/) and [Ruby Modules/Classes](http://ruby-for-beginners.rubymonstas.org/preface.html).
+If you don't know it yet, feel free to dive into them by clicking on the links or googling further.
 
 This project aims to help new developers understand the structures that make a programming language, the way to perform control flow and somewhat understand how computers "really" work behind the scenes.
 
