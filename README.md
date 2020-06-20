@@ -2,7 +2,7 @@
 
 This project aims to help new developers understand the structures that make a programming language, the way to perform control flow and also understand how computers "really" work behind the scenes.
 
-It's very straightforward and can copied using other programming languages as well
+It's very straightforward and can modified to use other programming languages as well.
 
 ## What you will see here
 
