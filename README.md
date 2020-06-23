@@ -10,17 +10,15 @@
       - [4. The automation phase](#4-the-automation-phase)
   - [Tips](#tips)
 
-Ready carefully. This project assumes that you have some small knowledge of [Terminal](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a), [Git](https://rogerdudler.github.io/git-guide/) and [Ruby Modules/Classes](http://ruby-for-beginners.rubymonstas.org/preface.html).
-If you don't know it yet, feel free to dive into them by clicking on the links or googling further.
+Read carefully. This project assumes that you have some knowledge of [Terminal](https://medium.com/@grace.m.nolan/terminal-for-beginners-e492ba10902a), [Git](https://rogerdudler.github.io/git-guide/) and [Ruby Modules/Classes](http://ruby-for-beginners.rubymonstas.org/preface.html).
+If you don't know it yet, feel free to research more by clicking on the links or googling further.
 
-This project aims to help new developers understand the structures that make a programming language, the way to perform control flow and somewhat understand how computers "really" work behind the scenes.
-
-It's very straightforward and can be modified to use other programming languages as well.
+This project goal is to help new developers understand the structures that make a programming language, the way to perform control flow and somewhat play around with how computers "work".
 
 
 ## What you will see here
 
-You will see a series of tasks you have to do in order for you computer to work. Fear not, this computer can also be extended to perform many things for you like finding and saving images, sending emails for you or ordering food. You decide where your computer goes.
+You will see a series of tasks you have to do in order for you "computer" to work. Fear not, this computer can also be extended to perform many things for you like finding and saving images, sending emails for you or ordering food. You decide where your computer goes.
 
 These tasks will be then tested against the `RSpec` test suite, which you can call by using `rake`.
 
@@ -29,7 +27,7 @@ Your job is to make sure every phase is correctly linked (Boot -> OS -> Applicat
 
 ## Your first steps
 
-Often you would see projects that offer you everything to run them, but this one is different: there are only a set of rules and you have to figure out what's missing to run the project. Check the files and find how `rake` can run. The tip here is to make sure you can run `bundle install` without any errors.
+Often you can see projects that explain you how to run them, but this one is different: there are only a set of rules and you have to figure out what's missing to run the project. Check the files and find how `rake` can run. Tip: make sure you can run `bundle install` without any errors.
 
 Stuck? Your best friend is Google: e.g. `How to install the ruby ...` or `How to split arrays in ruby` are common terms you might be looking for. Keeping in mind that this is a fun pet project to elevate your knowledge and finding the answers by googling them is also part of the learning process.
 
@@ -55,7 +53,7 @@ Our OS won't have a pointer, but we can mimic some of the known behaviors an OS 
 
 #### 3. The User applications phase
 
-After successfully loggin in a user, your next task is to create applications -- a set of programs that can execute specific tasks and return something you need.
+After successfully authenticating a user, your next task is to create applications -- a set of programs that can execute specific tasks and return something you need.
 
 For the beginning, your task is to list the applications in the computer and allow a user to type 1) the application name or 2) the application number (e.g. `1` and `Enter` to use a Calculator for instance).
 
@@ -73,7 +71,7 @@ Given that a user is logged in and now chooses the calculator app, this could be
 > Type your operation here.
 ```
 
-The caveat is how you will input your operations: they must be written as plain english:
+The caveat is how you will input your operations: they must be written as plain text:
 
 
 ```bash
@@ -81,7 +79,7 @@ The caveat is how you will input your operations: they must be written as plain 
 > 5 + 5 - 2 + 3 - 1
 ```
 
-This will then print the final result of `10`. The calculation should respect `-` and `+` and should be calculated from left to right.
+This will then print the final result of `10`. The calculation should respect `-` and `+` and should be interpreted from left to right.
 
 A user can then type `exit` to exit the application and go back to the list of applications.
 
